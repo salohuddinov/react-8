@@ -1,0 +1,10 @@
+.singleproduct {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 400px;
+    height: 344px;
+    border-radius: 16px;
+    border: 1px solid #000;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+}

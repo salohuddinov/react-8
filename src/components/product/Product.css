@@ -1,0 +1,131 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    padding: 55px 0;
+}
+
+
+.card {
+    width: 300px;
+    height: 344px;
+    border-radius: 16px;
+    border: 1px solid #000;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.img {
+    width: 58px;
+    height: 58px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background: #ddd;
+}
+
+.card__person {
+    font-size: 45px;
+    margin: 5px;
+    transition: .4s;
+}
+
+.card__person:hover {
+    color: #ff0000;
+}
+
+.card__name {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    color: rgb(45, 50, 70);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: -50px;
+}
+
+.username {
+    color: #000;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+.person__city {
+    color: rgb(75, 82, 110);
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.person__street {
+    color: rgb(45, 50, 70);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 2px 20px;
+}
+
+.person__suite {
+    color: rgb(45, 50, 70);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: right;
+    margin-top: -25px;
+    padding-right: 25px;
+}
+
+.person__title {
+    color: rgb(45, 50, 70);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 1px 20px;
+}
+
+.person__phone {
+    color: rgb(105, 114, 151);
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: right;
+    padding: 0 20px;
+    padding-top: 30px;
+}
+
+.person__email {
+    color: rgb(75, 82, 110);
+    font-family: Roboto;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: right;
+    padding-right: 20px;
+}

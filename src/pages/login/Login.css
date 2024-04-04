@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+
+
+.login__card {
+    width: 400px;
+    height: 303.75px;
+    margin: 80px auto;
+    box-sizing: border-box;
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+}
+
+
+.login__form label {
+    color: rgb(68, 68, 68);
+    font-family: Segoe UI;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 20px;
+}
+
+.inp {
+    width: 338px;
+    height: 44.38px;
+    box-sizing: border-box;
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    padding-left: 20px;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 35px;
+}
+
+.inp-username::placeholder {
+    color: rgb(119, 119, 119);
+    font-family: Segoe UI;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.login {
+    margin-top: 25px;
+    margin-left: 20px;
+    width: 80.11px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 5px;
+    background: #ffbb01;
+}
